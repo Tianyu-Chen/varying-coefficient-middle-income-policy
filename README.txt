@@ -10,7 +10,7 @@ The "middle-income trap" suggests that strategies that work well for countries t
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/vc-economic-development.git
+git clone https://github.com/Tianyu-Chen/vc-economic-development.git
 cd vc-economic-development
 
 # Install dependencies
