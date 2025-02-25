@@ -1,7 +1,5 @@
 # Policy Effectiveness Across Development Stages in Middle-Income Countries
 
-This project investigates how the effects of different economic policies (investment, education spending, etc.) vary across development stages, with a specific focus on middle-income countries. We use the World Bank Development Indicators as our primary dataset and apply varying coefficient models to analyze policy effectiveness.
-
 ## Project Overview
 
 The "middle-income trap" suggests that strategies that work well for countries to reach middle-income status may not be sufficient to propel them to high-income status. This project applies varying coefficient models to systematically analyze how the effectiveness of different economic policies varies with development stages in middle-income countries.
@@ -29,7 +27,6 @@ python scripts/vc_estimation.py
 ## Data
 
 This project uses data from:
-
 - **World Bank Development Indicators**: Economic, policy, and development metrics
 - **Human Development Index**: For a broader measure of development
 - **World Governance Indicators**: Institutional quality measures
@@ -42,7 +39,6 @@ The main variables include:
 ## Data Collection
 
 The `scripts/collect_wdi_data.py` script automatically fetches all necessary data from the World Bank API. It:
-
 1. Identifies middle-income countries (both lower-middle and upper-middle)
 2. Collects economic indicators, policy variables, and governance metrics from 2000-2020
 3. Processes and saves both raw and clean versions of the data
@@ -76,13 +72,6 @@ vc-economic-development/
 │   └── tables/              # Generated tables
 └── docs/                    # Documentation
 ```
-
-## Team Members
-
-- Tianyu Chen
-- Xinjie Zhu
-- Jingyun Sun
-- Xiangchi Ye
 
 ## License
 
